@@ -1,0 +1,97 @@
+@import url("https://use.typekit.net/jmk3xov.css");
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=DotGothic16&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Dosis:wght@200;300;400;700&family=DotGothic16&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Dosis:wght@200;300;400;700&family=DotGothic16&family=Red+Hat+Mono:wght@500&display=swap');
+
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+main {
+  width: 100vw;
+  color: white;
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+  margin: 0px auto;
+  font-family: 'Red Hat Mono', monospace;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+}
+
+.quote1{
+  margin-top: 300px;
+  font-family: 'Dosis', sans-serif;
+  
+}
+
+
+.section1{
+  /* background-color: black; */
+  margin-top: 300px;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.buynow{
+  margin-top: 100px;
+  size: 50px;
+  font-family: 'Dosis', sans-serif;
+  
+}
+
+.section2{
+  margin-top: 250px;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.btn-outline-warning{
+  font-size: 50px;
+}
+
+.blockquote{
+  font-size: 60px;
+}
+
+#mychart{
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  font-family: 'Dosis', sans-serif;
+  
+  
+
+}
+
+.section3{
+  background-image: url("about2.png");
+  margin-top: 300px;
+  font-family: 'DotGothic16', sans-serif;
+  font-family: 'Cute Font', cursive;
+  font-family: 'Dosis', sans-serif;
+}
+
+.section4{
+  margin-top: 300px;
+  background-image: url("road2.jpg");
+  font-family: 'Red Hat Mono', monospace;
+}
+
+
