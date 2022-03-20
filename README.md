@@ -1,2 +1,2 @@
-# hcxtsale
+# token-sale-hcx
  
