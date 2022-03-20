@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+    </script>
+  
+
+  <title>Vite App</title>
+</head>
+
+
+  <body>
+  
+  
+  
+    <canvas id="bg"></canvas>
+  
+  
+  
+    <main>
+
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">HCX</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">TOKENOMICS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">BUY TOKEN</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+      <div class="container quote1">
+        <div class="row">
+          <div class="col-4 .col-sm-0">
+            <blockquote>
+              <h1></h1>
+            </blockquote>
+          </div>
+          <div class="col blockquote">
+            <blockquote>
+              <h1>An automated IPO platform without invesment banks</h1>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-4 .col-sm-0">
+            <blockquote>
+              <h1></h1>
+            </blockquote>
+          </div>
+          <div class="col">
+            <blockquote>
+              <button type="button" class="btn btn-outline-success">WHITEPAPER</button>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container section1">
+        
+        <div class="row row-cols-2">
+          <div class="col-md-6 col-sm-12">
+            <img src="fi23.png" alt="LOADING">
+          </div>
+          
+          
+          
+        
+      </div>
+
+      <div class="container section2">
+      
+        <div class="row ">
+          <div class="col-md-4 ">
+
+          </div>
+          <div class="col-md-8 ">
+            <canvas id="myChart" style="width:100%;max-width:1000px; height: 700px; "></canvas>
+
+            <script>
+              var xValues = ["REGIONAL LEADS", "RESERVES", "MARKETING", "CORE TEAM","ADVISORS", "FOUNDERS", "AIR DROP", "NON-PROFIT"];
+              var yValues = [3,4,3,3,5,27,15,40];
+              var barColors = [
+                "#b91d47",
+                "#00aba9",
+                "#2b5797",
+                "#e8c3b9",
+                "#1e7145",
+                "#ffb366",
+                "#ff99ff"
+              ];
+
+              new Chart("myChart", {
+                type: "doughnut",
+                data: {
+                  labels: xValues,
+                  datasets: [{
+                    backgroundColor: barColors,
+                    data: yValues
+                  }]
+                },
+                options: {
+                  title: {
+                    display: true,
+                    text: ""
+                  }
+                }
+              });
+            </script>
+
+            
+            </div>
+            
+
+            
+          </div>
+
+
+
+          
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
+
+          </div>
+          <div class="col-9">
+            <div class=" buynow">
+              <button type="button" class="btn btn-outline-warning">BUY NOW</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  
+      
+  
+    <section class="section3">
+
+      <div class="container missionhead">
+        <div class="row">
+          <h1>  Our mission</h1>
+        </div>
+
+        <div class="container mission">
+          <div class="row">
+            <h2>
+              Our mission is not only a challenging task, but also a less rewarding one for profit seeking
+              entities when you see it through the lens of risk vs reward. But, it is an enormous public
+              good. One that would truly redefine the capital markets architecture and liberate many. The
+              world would be better for it, even if the incumbents were not. This is why we have little
+              competition for our core idea, despite us introducing the pioneering concept of
+              decentralised capital markets a year ago and many ICOs imitating related, more profitable,
+              peripheral ideas within capital markets but not the core idea. Simply making this a
+              regulatory reality would be an uphill task. Our project is as visionary as bitcoin in its scope
+              and potential.
+
+            </h2>
+          </div>
+        </div>
+      </div>
+
+    </section>
+      
+  
+  
+  
+  
+      <section class="section4 roadmapsection">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-1">
+              
+            </div>
+            
+            <div class="col">
+              <h1>ROADMAP</h1>
+            </div>
+          </div>
+        </div>
+
+        
+
+
+        <div class="container">
+          <div class="row">
+            <div class="col-1">
+              
+            </div>
+            <div class="col-11">
+              <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
+                <div class="card-header">ROAD1</div>
+                <div class="card-body">
+                  <h5 class="card-title">Company decides IPO prices using pur pricing module</h5>
+                  
+                </div>
+              </div>
+              
+              <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
+                <div class="card-header">ROAD2</div>
+                <div class="card-body">
+                  <h5 class="card-title">Accesses IPO/ISTO module for various features replacing investment banks</h5>
+                  
+                </div>
+              </div>
+              
+              <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
+                <div class="card-header">ROAD3</div>
+                <div class="card-body">
+                  <h5 class="card-title">Launches smart contracts for ISTO and fills order book with investors</h5>
+                  
+                </div>
+              </div>
+              
+              <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
+                <div class="card-header">ROAD4</div>
+                <div class="card-body">
+                  <h5 class="card-title">Company distributes initial share tokens to investors</h5>
+                  
+                </div>
+              </div>
+
+            </div>
+            
+          </div>
+        </div>
+
+
+        
+
+      </section>
+  
+     
+  
+  
+  
+      
+  
+    </main>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <script type="module" src="/main.js"></script>
+  </body>
+
+
+</html>
+
+
+  
