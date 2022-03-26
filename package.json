@@ -2,7 +2,9 @@
   "name": "vite-project",
   "private": true,
   "version": "0.0.0",
+  "main": "main.js",
   "scripts": {
+    "start": "node main.js",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
