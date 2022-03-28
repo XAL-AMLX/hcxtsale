@@ -1,7 +1,7 @@
 import './style.css'
 
 import * as THREE from 'three';
-import {OrbitControls} from '\vendor_mods\three\examples\jsm\controls\OrbitControls.js';
+import {OrbitControls} from '/vendor_mods/three/examples/jsm/controls/OrbitControls.js';
 
 
 const scene = new THREE.Scene();
@@ -44,7 +44,8 @@ cube.position.setX(-80);
 scene.add( pointLight );
 // const ambientLight = new THREE.AmbientLight( 0x404040 ); // soft white light
 
-const controls = new OrbitControls( camera, renderer.domElement );
+// const controls = new OrbitControls( camera, renderer.domElement );
+const controls = new Three.OrbitControls(camera, renderer.domElement);
 
 function addStar() {
   const geometry = new THREE.BoxGeometry(.15,.15,.15 );
