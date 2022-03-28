@@ -401,7 +401,7 @@ class OrbitControls extends EventDispatcher {
 
 			const v = new Vector3();
 
-			return function panUp( distance, objectMatrix ) {
+			return function panUp( distance, objectMatrix  ) {
 
 				if ( scope.screenSpacePanning === true ) {
 
