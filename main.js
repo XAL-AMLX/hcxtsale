@@ -1,4 +1,4 @@
-import './index.css'
+import css from './index.css'
 
 import * as THREE from 'three';
 import {OrbitControls} from './OrbitControls.js';
