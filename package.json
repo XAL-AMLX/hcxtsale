@@ -9,7 +9,7 @@
   "main": "main.js",
   "type":"module",
   "scripts": {
-    "start": "node --experimental-modules --es-module-specifier-resolution=node main.js",
+    "start": "node main.js",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
