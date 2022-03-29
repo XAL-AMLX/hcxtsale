@@ -1,6 +1,6 @@
 import * as THREE from 'three';
 import {OrbitControls} from './OrbitControls.js';
-import './index.css'
+import './index.css';
 
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera( 35, window.innerWidth / window.innerHeight, 0.1, 1000 );
